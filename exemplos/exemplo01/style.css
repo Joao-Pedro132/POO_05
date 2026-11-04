@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 14px 14px;
+    background-color: blue;
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.formulario label{
+    display: block;
+    margin-top: 5px;
+}
+
+.formulario input{
+    display: block;
+}
+
+.formulario button{
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.resultado{
+    width: 70%;
+    margin: 10px auto;
+}
+
+.resultado table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.resultado th{
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+}
+
+.resultado td{
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+.voltar {
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 7px;
+}
